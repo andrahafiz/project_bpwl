@@ -11,8 +11,8 @@ Safanisha :
   - form
 
 Arief :
-  - menampilkan data k
+  - menampilkan data 
 
 Rony :
-  - 
+  - menampilkan data 
   
