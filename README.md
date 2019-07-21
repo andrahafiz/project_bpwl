@@ -5,14 +5,17 @@ folder "Exadmin" jangan di edit , itu sebagai refrensi kita
 ------------TUGAS PERORANGAN--------------
 Andra :
   - mengupload seluruh template ( admin / halaman publik )
-  - Design Websiter
+  - Design Website
+  - membuat form inputan data guru sebagai panduan untum form form lainnya
 
 Safanisha :
-  - form
+  - form fasilatas dengan data ( kode_fasilitas, nama_fasilitas, foro_fasilitas )
 
 Arief :
-  - menampilkan data 
+  - menampilkan data di halaman user
+  - form eksteakulikuler dengan data ( kode_ektrakulikuler, nama_ekstrakulikuler, foro_ekstrakulikuler )
 
 Rony :
   - menampilkan data 
+  - form profile
   
