@@ -19,3 +19,9 @@ Rony :
   - menampilkan data 
   - form profile
   
+  
+Apabila ada error atau butuh pertolonga hubungain aku ya guy
+nomor aku di bawaah ini
+082276853382
+atau email pun jadi
+andra18ti@mahasiswa.pcr.ac.id
