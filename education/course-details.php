@@ -5,9 +5,9 @@
         <div class="row d-flex align-items-center justify-content-center">
             <div class="about-content col-lg-12">
                 <h1 class="text-white">
-                    Popular Courses
+                    Nama Guru
                 </h1>
-                <p class="text-white link-nav"><a href="index.html">Home </a> <span class="lnr lnr-arrow-right"></span> <a href="courses.html"> Popular Courses</a></p>
+                <p class="text-white link-nav"><a href="index.html">Home </a> <span class="lnr lnr-arrow-right"></span> <a href="courses.html"> Data Guru </a></p>
             </div>
         </div>
     </div>
@@ -26,16 +26,74 @@
 
                     <div class="jq-tab-content-wrapper" style=" margin-bottom: 50px;">
                         <div class="jq-tab-content active" data-tab=" 1">
-                            When you enter into any new area of science, you almost always find yourself with a baffling new language of technical terms to learn before you can converse with the experts. This is certainly true in astronomy both in terms of terms that refer to the cosmos and terms that describe the tools of the trade, the most prevalent being the telescope.
-                            <br>
-                            <br>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
-                        </div>
-                        <div class="jq-tab-content" data-tab="2">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
-                            <br>
-                            <br>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+                            <div class="row" style="margin-bottom:10px; padding:10px;">
+                                <div class="col-4">
+                                    <b> Nama</b>
+                                </div>
+                                <div class="col-8">
+                                    : Rodrigo Hagenes
+                                    <hr />
+                                </div>
+                            </div>
+                            <div class="row" style="margin-bottom:10px; padding:10px;">
+                                <div class="col-4">
+                                    <b> Singkatan </b>
+                                </div>
+                                <div class="col-8">
+                                    : Rodrigo Hagenes
+                                    <hr />
+                                </div>
+                            </div>
+                            <div class="row" style="margin-bottom:10px; padding:10px;">
+                                <div class="col-4">
+                                    <b> Tempat Tanggal Lahir</b>
+                                </div>
+                                <div class="col-8">
+                                    : Medan, 03-04-2000
+                                    <hr />
+                                </div>
+                            </div>
+                            <div class="row" style="margin-bottom:10px; padding:10px;">
+                                <div class="col-4">
+                                    <b> Alamat</b>
+                                </div>
+                                <div class="col-8">
+                                    : Jl. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex culpa incidunt sequi suscipit fugiat placeat praesentium.
+                                    <hr />
+                                </div>
+                            </div>
+
+                            <div class="row" style="margin-bottom:10px; padding:10px;">
+                                <div class="col-4">
+                                    <b> Alamat</b>
+                                </div>
+                                <div class="col-8">
+                                    : Jl. Kembang Sari
+                                    <hr />
+                                </div>
+                            </div>
+
+                            <div class="row" style="margin-bottom:10px; padding:10px;">
+                                <div class="col-4">
+                                    <b>Jabatan</b>
+                                </div>
+                                <div class="col-8">
+                                    : Jl. Kembang Sari
+                                    <hr />
+                                </div>
+                            </div>
+
+                            <div class="row" style="margin-bottom:10px; padding:10px;">
+                                <div class="col-4">
+                                    <b>Pendidikan Terakhir</b>
+                                </div>
+                                <div class="col-8">
+                                    : S3
+                                    <hr />
+
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>

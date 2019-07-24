@@ -12,8 +12,7 @@
             <h2>DASHBOARD</h2>
         </div>
 
-<<<<<<< HEAD
-            <!-- Widgets -->
+         <!-- Widgets -->
             <div class="row clearfix">
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="info-box bg-pink hover-expand-effect">
@@ -59,30 +58,6 @@
                             ";
                            ?>
                         </div>
-=======
-        <!-- Widgets -->
-        <div class="row clearfix">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="info-box bg-pink hover-expand-effect">
-                    <div class="icon">
-                        <i class="material-icons">playlist_add_check</i>
-                    </div>
-                    <div class="content">
-                        <div class="text">NEW TASKS</div>
-                        <div class="number count-to" data-from="0" data-to="125" data-speed="15" data-fresh-interval="20">125</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="info-box bg-cyan hover-expand-effect">
-                    <div class="icon">
-                        <i class="material-icons">help</i>
-                    </div>
-                    <div class="content">
-                        <div class="text">NEW TICKETS</div>
-                        <div class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20">257</div>
->>>>>>> fe06518ec9af91b7952033b7af9cb1639c94f98b
-                    </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
