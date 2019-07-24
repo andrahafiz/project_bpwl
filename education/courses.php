@@ -45,8 +45,9 @@ start banner Area -->
 					<div class="thumb-wrap relative">
 						<div class="thumb relative">
 							<div class="overlay overlay-bg"></div>
-							<img class="img-fluid" src="../contoh/public/pages/tables/images/Guru/<?php echo $row[2] ?>" alt="" title="">
+							<img class="karangan" src="../contoh/public/pages/tables/images/Guru/<?php echo $row[2] ?>" alt="" title="">
 						</div>
+
 					</div>
 					<div class="details">
 						<a href="index.php?slink=course-details.php&id=<?php echo $row[0] ?>">
@@ -60,6 +61,7 @@ start banner Area -->
 							Jabatan : <?php echo $row[10]; ?> <br>
 						</p>
 					</div>
+
 				</div>
 
 			<?php

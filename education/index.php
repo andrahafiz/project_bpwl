@@ -23,6 +23,7 @@
 			============================================= -->
 		<link rel="stylesheet" href="css/linearicons.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/bootstrap/style.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/magnific-popup.css">
 		<link rel="stylesheet" href="css/nice-select.css">
@@ -45,6 +46,7 @@
 				<div class="header-top">
 					<div class="container">
 						<div class="row">
+
 							<div class="col-lg-6 col-sm-6 col-8 header-top-left no-padding">
 								<ul>
 									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
