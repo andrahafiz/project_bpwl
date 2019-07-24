@@ -61,7 +61,7 @@
 			          <li><a href="about.html">About</a></li>
 			          <li><a href="courses.html">Courses</a></li>
 			          <li><a href="events.html">Events</a></li>
-			          <li><a href="gallery.html">Gallery</a></li>
+			          <li><a href="gallery.html">Ekstrakulikuler</a></li>
 			          <li class="menu-has-children"><a href="">Blog</a>
 			            <ul>
 			              <li><a href="blog-home.html">Blog Home</a></li>
