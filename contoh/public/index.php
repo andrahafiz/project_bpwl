@@ -242,6 +242,16 @@
                                 </a>
                             </li>
 
+
+                            <li>
+                                <!-- <a href="javascript:void(0);" class="menu-toggle"> -->
+                                <a href="index.php?slink=pages/tables/fasilitas_daftar.php">
+                                    <i class="material-icons">create</i>
+                                    <span>Daftar Fasilitas</span>
+                                </a>
+                            </li>
+
+
                         </ul>
                     </li>
 
@@ -252,6 +262,15 @@
                             <span>Data Guru</span>
                         </a>
                     </li>
+
+                    <li>
+                        <!-- <a href="javascript:void(0);" class="menu-toggle"> -->
+                        <a href="index.php?slink=pages/tables/fasilitas_data.php">
+                            <i class="material-icons">view_list</i>
+                            <span>Data Fasilitas</span>
+                        </a>
+                    </li>
+
                 </ul>
             </div>
             <!-- #Menu -->
