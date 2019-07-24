@@ -56,7 +56,7 @@
         <div class="card">
             <div class="header">
                 <h2>
-                    INPUT DATA GURU
+                    INPUT DATA PIMPINAN & STAF PEGAWAI
                 </h2>
             </div>
             <div class="body">
@@ -68,7 +68,7 @@
                             <div class="form-group">
                                 <div class="form-line">
                                     <label for="nip_input">NIP</label>
-                                    <input type="text" class="form-control" id="nip_input" name="nip" placeholder="Inputkan Nama Guru">
+                                    <input type="text" class="form-control" id="nip_input" name="nip" placeholder="Inputkan NIP Staf">
                                 </div>
                             </div>
                         </div>
@@ -81,7 +81,7 @@
                             <div class="form-group">
                                 <div class="form-line">
                                     <label for="nama_input">Nama Guru:</label>
-                                    <input type="text" class="form-control" id="nama_input" name="nama" placeholder="Inputkan Nama Hima">
+                                    <input type="text" class="form-control" id="nama_input" name="nama" placeholder="Inputkan Nama Staf">
                                 </div>
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                         <div class="col-sm-4">
                             <div class="form-group">
                                 <div class="form-line">
-                                    <label for="singkatan_input">Singkatan Guru:</label>
+                                    <label for="singkatan_input">Singkatan Staf:</label>
                                     <input type="text" class="form-control" id="singkatan_input" name="singkatan" placeholder="Input Singkatan">
                                 </div>
                             </div>
@@ -157,7 +157,7 @@
                             <div class="form-group">
                                 <div class="form-line">
                                     <label for="tmplahir_input">Tempat Lahir:</label>
-                                    <input type="text" class="form-control" id="tmplahir_input" name="tempat" placeholder="Input Singkatan">
+                                    <input type="text" class="form-control" id="tmplahir_input" name="tempat" placeholder="Input Tempat Lahir">
                                 </div>
                             </div>
                         </div>
