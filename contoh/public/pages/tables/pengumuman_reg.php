@@ -106,7 +106,7 @@
                 //Jika Gagal
                 echo "YAPS";
             } else {
-                // echo "<script>alert('Insert Data $nama Berhasil'); window.location.href = '../../index.php?slink=pages/tables/pengumuman_data.php&status=succes_add';1</script>";
+                echo "<script>alert('Insert Data $nama Berhasil'); window.location.href = '../../index.php?slink=pages/tables/pengumuman_data.php&status=succes_add';1</script>";
             }
         }
     } else {
