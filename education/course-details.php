@@ -5,9 +5,9 @@
         <div class="row d-flex align-items-center justify-content-center">
             <div class="about-content col-lg-12">
                 <h1 class="text-white">
-                    Popular Courses
+                    Nama Guru
                 </h1>
-                <p class="text-white link-nav"><a href="index.html">Home </a> <span class="lnr lnr-arrow-right"></span> <a href="courses.html"> Popular Courses</a></p>
+                <p class="text-white link-nav"><a href="index.html">Home </a> <span class="lnr lnr-arrow-right"></span> <a href="courses.html"> Data Guru </a></p>
             </div>
         </div>
     </div>
@@ -27,20 +27,70 @@
                     <div class="jq-tab-content-wrapper" style=" margin-bottom: 50px;">
                         <div class="jq-tab-content active" data-tab=" 1">
                             <div class="row" style="margin-bottom:10px; padding:10px;">
-                                <div class="col-2">
-                                    Nama
+                                <div class="col-4">
+                                    <b> Nama</b>
                                 </div>
-                                <div class="col-10">
-                                    Rodrigo Hagenes
+                                <div class="col-8">
+                                    : Rodrigo Hagenes
+                                    <hr />
+                                </div>
+                            </div>
+                            <div class="row" style="margin-bottom:10px; padding:10px;">
+                                <div class="col-4">
+                                    <b> Singkatan </b>
+                                </div>
+                                <div class="col-8">
+                                    : Rodrigo Hagenes
+                                    <hr />
+                                </div>
+                            </div>
+                            <div class="row" style="margin-bottom:10px; padding:10px;">
+                                <div class="col-4">
+                                    <b> Tempat Tanggal Lahir</b>
+                                </div>
+                                <div class="col-8">
+                                    : Medan, 03-04-2000
+                                    <hr />
+                                </div>
+                            </div>
+                            <div class="row" style="margin-bottom:10px; padding:10px;">
+                                <div class="col-4">
+                                    <b> Alamat</b>
+                                </div>
+                                <div class="col-8">
+                                    : Jl. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex culpa incidunt sequi suscipit fugiat placeat praesentium.
+                                    <hr />
                                 </div>
                             </div>
 
-                            <div class="row" style="margin-bottom:10px">
-                                <div class="col-2">
-                                    Alamat
+                            <div class="row" style="margin-bottom:10px; padding:10px;">
+                                <div class="col-4">
+                                    <b> Alamat</b>
                                 </div>
-                                <div class="col-10">
-                                    Jl. Kembang Sari
+                                <div class="col-8">
+                                    : Jl. Kembang Sari
+                                    <hr />
+                                </div>
+                            </div>
+
+                            <div class="row" style="margin-bottom:10px; padding:10px;">
+                                <div class="col-4">
+                                    <b>Jabatan</b>
+                                </div>
+                                <div class="col-8">
+                                    : Jl. Kembang Sari
+                                    <hr />
+                                </div>
+                            </div>
+
+                            <div class="row" style="margin-bottom:10px; padding:10px;">
+                                <div class="col-4">
+                                    <b>Pendidikan Terakhir</b>
+                                </div>
+                                <div class="col-8">
+                                    : S3
+                                    <hr />
+
                                 </div>
                             </div>
 

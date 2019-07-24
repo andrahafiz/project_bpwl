@@ -32,38 +32,38 @@ start banner Area -->
 
 			<?php
 
-		include "set/koneksi.php";
+			include "set/koneksi.php";
 
-		$sql = "select * from guru, jabatan where guru_jabatan = jabatan_id";
-		$result = mysqli_query($db, $sql);
-		while ($row = mysqli_fetch_array($result)){
-		
-		?>
+			$sql = "select * from guru, jabatan where guru_jabatan = jabatan_id";
+			$result = mysqli_query($db, $sql);
+			while ($row = mysqli_fetch_array($result)) {
+
+				?>
 
 
-			<div class="single-popular-carusel col-lg-3 col-md-6">
-				<div class="thumb-wrap relative">
-					<div class="thumb relative">
-						<div class="overlay overlay-bg"></div>
-						<img class="img-fluid" src="../contoh/public/pages/tables/images/Guru/<?php echo $row[2]?>" alt=""  title="">
+				<div class="single-popular-carusel col-lg-3 col-md-6">
+					<div class="thumb-wrap relative">
+						<div class="thumb relative">
+							<div class="overlay overlay-bg"></div>
+							<img class="img-fluid" src="../contoh/public/pages/tables/images/Guru/<?php echo $row[2] ?>" alt="" title="">
+						</div>
+					</div>
+					<div class="details">
+						<a href="index.php?slink=course-details.php&id=<?php echo $row[0] ?>">
+							<h4>
+								Nama Guru
+							</h4>
+						</a>
+						<p>
+							Nip : <?php echo $row[0]; ?> <br>
+							Nama : <?php echo $row[1]; ?> <br>
+							Jabatan : <?php echo $row[10]; ?> <br>
+						</p>
 					</div>
 				</div>
-				<div class="details">
-					<a href="index.php?slink=course-details.php">
-						<h4>
-							Nama Guru
-						</h4>
-					</a>
-					<p>
-						Nip : <?php echo $row[0]; ?> <br>
-						Nama : <?php echo $row[1]; ?> <br>
-						Jabatan : <?php echo $row[10]; ?> <br>
-					</p>
-				</div>
-			</div>
 
 			<?php
-		}
+			}
 			?>
 
 
