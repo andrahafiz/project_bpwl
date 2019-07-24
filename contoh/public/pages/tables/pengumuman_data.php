@@ -57,7 +57,7 @@
                                 <th>ID Pengumuman</th>
                                 <th>Judul Pengumuman</th>
                                 <th>Isi Pengumuman</th>
-                                <th>Foto Fasilitas</th>
+                                <th>Foto Pengumuman</th>
                                 <th class="align-center">Aksi</th>
                             </tr>
                         </thead>
