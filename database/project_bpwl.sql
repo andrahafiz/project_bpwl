@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 24, 2019 at 06:34 PM
+-- Generation Time: Jul 24, 2019 at 06:37 PM
 -- Server version: 10.1.35-MariaDB
 -- PHP Version: 7.2.9
 
@@ -209,17 +209,18 @@ CREATE TABLE `pengumuman` (
   `id_pengumuman` varchar(100) NOT NULL,
   `judul_pengumuman` varchar(100) NOT NULL,
   `isi_pengumuman` text NOT NULL,
-  `foto_pengumuman` varchar(100) DEFAULT NULL
+  `foto_pengumuman` varchar(100) DEFAULT NULL,
+  `waktu_pengumuman` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `pengumuman`
 --
 
-INSERT INTO `pengumuman` (`id_pengumuman`, `judul_pengumuman`, `isi_pengumuman`, `foto_pengumuman`) VALUES
-('P01', 'Peringatan Hari Kebangkitan Nasional', 'Diberitahukan kepada seluruh siswa kelas VII untuk hadir pada peringatan hari Kebangkitan Nasional', 'P01.jpg'),
-('P02', 'Libur Hari Raya Idul Fitri 1436H dan cuti bersama', 'Sehubungan dengan libur Hari Raya Idul Fitri 1436H dan cuti bersama maka Layanan Perpustakaan diatur menjadi sebagai berikut :', 'p02.JPG'),
-('P03', 'Peraturan KBM minggu terakhir dan Penerimaan Rapor', 'Berikut jadwal KBM terhitung sejak 13 s.d 16 Desember 2019 dan jadwal penerimaan rapor', 'p03.JPG');
+INSERT INTO `pengumuman` (`id_pengumuman`, `judul_pengumuman`, `isi_pengumuman`, `foto_pengumuman`, `waktu_pengumuman`) VALUES
+('P01', 'Peringatan Hari Kebangkitan Nasional', 'Diberitahukan kepada seluruh siswa kelas VII untuk hadir pada peringatan hari Kebangkitan Nasional', 'P01.jpg', '2019-07-24 16:36:57'),
+('P02', 'Libur Hari Raya Idul Fitri 1436H dan cuti bersama', 'Sehubungan dengan libur Hari Raya Idul Fitri 1436H dan cuti bersama maka Layanan Perpustakaan diatur menjadi sebagai berikut :', 'p02.JPG', '2019-07-24 16:36:57'),
+('P03', 'Peraturan KBM minggu terakhir dan Penerimaan Rapor', 'Berikut jadwal KBM terhitung sejak 13 s.d 16 Desember 2019 dan jadwal penerimaan rapor', 'p03.JPG', '2019-07-24 16:36:57');
 
 -- --------------------------------------------------------
 
@@ -245,6 +246,12 @@ INSERT INTO `sekolah_profile` (`sekolah_nama`, `sekolah_alamat`, `sekolah_telp`,
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `eskul`
+--
+ALTER TABLE `eskul`
+  ADD PRIMARY KEY (`kode_eskul`);
 
 --
 -- Indexes for table `fasilitas`
@@ -275,6 +282,12 @@ ALTER TABLE `jabatan`
 --
 ALTER TABLE `pengumuman`
   ADD PRIMARY KEY (`id_pengumuman`);
+
+--
+-- Indexes for table `sekolah_profile`
+--
+ALTER TABLE `sekolah_profile`
+  ADD PRIMARY KEY (`sekolah_nama`);
 
 --
 -- AUTO_INCREMENT for dumped tables
