@@ -8,7 +8,7 @@
 							<h1 class="text-white">
 								Ektrakulikuler				
 							</h1>	
-							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="gallery.html"> Gallery</a></p>
+							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="gallery.html">Ektrakulikuler</a></p>
 						</div>	
 					</div>
 				</div>
