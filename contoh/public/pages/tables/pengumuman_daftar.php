@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -57,19 +56,32 @@
         <div class="card">
             <div class="header">
                 <h2>
-                    INPUT DATA FASILITAS
+                    INPUT DATA PENGUMUMAN
                 </h2>
             </div>
             <div class="body">
-                <form method="post" action="pages/tables/fasilitas_reg.php" enctype="multipart/form-data"> <input type="hidden" name="kode" value="fasilitas">
+                <form method="post" action="pages/tables/pengumuman_reg.php" enctype="multipart/form-data"> <input type="hidden" name="kode" value="pengumuman">
 
                     <div class="row clearfix">
-                        <!-- ID Fasilitas -->
+                        <!-- Id Pengumuman -->
                         <div class="col-sm-8">
                             <div class="form-group">
                                 <div class="form-line">
-                                    <label for="id_input">ID Fasilitas</label>
-                                    <input type="text" class="form-control" id="id_input" name="idfasilitas" placeholder="Inputkan ID Fasilitas">
+                                    <label for="id_input">ID Pengumuman</label>
+                                    <input type="text" class="form-control" id="id_input" name="idpengumuman" placeholder="Inputkan ID Pengumuman">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Id Pengumuman -->
+                    </div>
+
+                    <div class="row clearfix">
+                        <!-- Judul Pengumuman -->
+                        <div class="col-sm-8">
+                            <div class="form-group">
+                                <div class="form-line">
+                                    <label for="judul_input">Judul Pengumuman</label>
+                                    <input type="text" class="form-control" id="judul_input" name="judulpengumuman" placeholder="Inputkan Judul Pengumuman">
                                 </div>
                             </div>
                         </div>
@@ -77,16 +89,16 @@
                     </div>
 
                     <div class="row clearfix">
-                        <!-- Nama Fasilitas -->
+                        <!-- Isi Pengumuman -->
                         <div class="col-sm-8">
                             <div class="form-group">
                                 <div class="form-line">
-                                    <label for="nama_input">Nama Fasilitas:</label>
-                                    <input type="text" class="form-control" id="nama_input" name="namafasilitas" placeholder="Inputkan Nama Fasilitas">
+                                    <label for="isi_input">Isi Pengumuman</label>
+                                    <input type="text" class="form-control" id="isi_input" name="isipengumuman" placeholder="Inputkan Isi Pengumuman">
                                 </div>
                             </div>
                         </div>
-                        <!-- End Nama Fasilitas -->
+                        <!-- End -->
                     </div>
 
 
@@ -105,7 +117,7 @@
                     <!-- PREVIEW FOTO -->
                     <div class="row clearfix">
                         <div class="col-sm-12">
-                            <img id="preview" class="img-thumbnail" style="border: 2px solid #ddd" width="320px" src="pages/tables/images/Fasilitas/notimage.png" />
+                            <img id="preview" class="img-thumbnail" style="border: 2px solid #ddd" width="320px" src="pages/tables/images/Pengumuman/notimage.png" />
                             <p class="help-block">File harus PNG.</p>
                         </div>
                         <!-- END PREVIEW FOTO -->
