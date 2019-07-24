@@ -33,7 +33,7 @@
 								</div>
 								<div class="detials col-12 col-md-6">
 									<p>25th February, 2018</p>
-									<a href="event-details.html"><h4></h4></a>
+									<a href="event-details.html"><h4><?php echo $row[1]; ?></h4></a>
 									<p>
 										For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.
 									</p>
