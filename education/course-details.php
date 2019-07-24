@@ -29,12 +29,21 @@ $id = $_GET['id'];
 
                     <div class="jq-tab-content-wrapper" style=" margin-bottom: 50px;">
                         <div class="jq-tab-content active" data-tab=" 1">
+                            <?php
+
+                            include "set/koneksi.php";
+
+                            $sql = "select * from guru, jabatan where guru_jabatan = jabatan_id and nip_guru =$id";
+                            $result = mysqli_query($db, $sql);
+                            while ($row = mysqli_fetch_array($result)) {
+
+                                ?>
                             <div class="row" style="margin-bottom:10px; padding:10px;">
                                 <div class="col-4">
                                     <b> Nama</b>
                                 </div>
                                 <div class="col-8">
-                                    : Rodrigo Hagenes
+                                    : <?php echo $row[1]; ?> 
                                     <hr />
                                 </div>
                             </div>
@@ -43,7 +52,7 @@ $id = $_GET['id'];
                                     <b> Singkatan </b>
                                 </div>
                                 <div class="col-8">
-                                    : Rodrigo Hagenes
+                                    : <?php echo $row[3]; ?>
                                     <hr />
                                 </div>
                             </div>
@@ -52,7 +61,7 @@ $id = $_GET['id'];
                                     <b> Tempat Tanggal Lahir</b>
                                 </div>
                                 <div class="col-8">
-                                    : Medan, 03-04-2000
+                                    : <?php echo $row[6]; ?>, <?php echo $row[7]; ?>
                                     <hr />
                                 </div>
                             </div>
@@ -61,27 +70,18 @@ $id = $_GET['id'];
                                     <b> Alamat</b>
                                 </div>
                                 <div class="col-8">
-                                    : Jl. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex culpa incidunt sequi suscipit fugiat placeat praesentium.
+                                    : <?php echo $row[8]; ?>
                                     <hr />
                                 </div>
                             </div>
 
-                            <div class="row" style="margin-bottom:10px; padding:10px;">
-                                <div class="col-4">
-                                    <b> Alamat</b>
-                                </div>
-                                <div class="col-8">
-                                    : Jl. Kembang Sari
-                                    <hr />
-                                </div>
-                            </div>
-
+                            
                             <div class="row" style="margin-bottom:10px; padding:10px;">
                                 <div class="col-4">
                                     <b>Jabatan</b>
                                 </div>
                                 <div class="col-8">
-                                    : Jl. Kembang Sari
+                                    : <?php echo $row[10]; ?>
                                     <hr />
                                 </div>
                             </div>
@@ -91,7 +91,7 @@ $id = $_GET['id'];
                                     <b>Pendidikan Terakhir</b>
                                 </div>
                                 <div class="col-8">
-                                    : S3
+                                    : <?php echo $row[4]; ?>
                                     <hr />
 
                                 </div>
@@ -106,25 +106,25 @@ $id = $_GET['id'];
                     <li>
                         <a class="justify-content-between d-flex" href="#">
                             <p>Nama Guru</p>
-                            <span class="or">George Mathews</span>
+                            <span class="or"> <?php echo $row[1]; ?></span>
                         </a>
                     </li>
                     <li>
                         <a class="justify-content-between d-flex" href="#">
                             <p>Tanggal Lahir </p>
-                            <span>Belle Medhurst</span>
+                            <span><?php echo $row[6];?>, <?php echo $row[7];?></span>
                         </a>
                     </li>
                     <li>
                         <a class="justify-content-between d-flex" href="#">
                             <p>Jabatan</p>
-                            <span>Haag and Sons</span>
+                            <span><?php echo $row[10];?></span>
                         </a>
                     </li>
                     <li>
                         <a class="justify-content-between d-flex" href="#">
                             <p>Alamat </p>
-                            <span>81401 Schumm Valley</span>
+                            <span><?php echo $row[8];?></span>
                         </a>
                     </li>
                 </ul>
@@ -133,6 +133,9 @@ $id = $_GET['id'];
         </div>
     </div>
 </section>
+<?php
+}
+?>
 <!-- End course-details Area -->
 
 </body>
