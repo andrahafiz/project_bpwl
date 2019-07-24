@@ -26,7 +26,7 @@
 				<?php
 
 				include "pages/set/koneksi.php";
-				$sql = "SELECT `kode_eskul`,`nama_eskul`,`foto_eskul` FROM `eskul`";
+				$sql = "SELECT `kode_eskul`,`nama_eskul`,`foto_eskul`,`jenis_eskul` FROM `eskul`";
 				$query = mysqli_query($db, $sql);
 				$nourut = 1;
 				while ($row = mysqli_fetch_array($query)) {
@@ -42,7 +42,7 @@
 									<div class="content-details">
 										<h4 class="content-title mx-auto text-uppercase"><?php echo $row[1] ?></h4>
 										<span></span>
-										<p>Ekstrakulikuler</p>
+										<p><?php echo $row[3] ?></p>
 									</div>
 								</a>
 							</div>
