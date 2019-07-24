@@ -169,18 +169,7 @@
             </div>
         </div>
         <!-- #END# CPU Usage -->
-        <div class="row clearfix">
-
-            asds
-            <!-- #END# Visitors -->
-            
-
-            <!-- #END# Answered Tickets -->
-        </div>
-
-        <div class="row clearfix">
-            
-        </div>
+        
     </div>
 </body>
 
