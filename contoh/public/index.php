@@ -238,7 +238,7 @@
                                 <!-- <a href="javascript:void(0);" class="menu-toggle"> -->
                                 <a href="index.php?slink=pages/tables/guru_daftar.php">
                                     <i class="material-icons">create</i>
-                                    <span>Daftar Pimpinan&Staf Pegawai</span>
+                                    <span>Daftar Pimpinan & Staf Pegawai</span>
                                 </a>
                             </li>
 
@@ -257,11 +257,13 @@
                                 <a href="index.php?slink=pages/tables/pengumuman_daftar.php">
                                     <i class="material-icons">create</i>
                                     <span>Daftar Pengumuman</span>
+                                </a>
+                            </li>
 
+                            <li>
                                 <a href="index.php?slink=pages/tables/eskul_daftar.php">
                                     <i class="material-icons">create</i>
                                     <span>Daftar Ekstrakulikuler</span>
-
                                 </a>
                             </li>
 
@@ -284,12 +286,13 @@
                             <span>Data Fasilitas</span>
                         </a>
                     </li>
-
-                    <!-- <a href="javascript:void(0);" class="menu-toggle"> -->
+                    <li>
+                        <!-- <a href="javascript:void(0);" class="menu-toggle"> -->
                         <a href="index.php?slink=pages/tables/pengumuman_data.php">
                             <i class="material-icons">view_list</i>
                             <span>Data Pengumuman</span>
-
+                        </a>
+                    </li>
                     <li>
                         <!-- <a href="javascript:void(0);" class="menu-toggle"> -->
                         <a href="index.php?slink=pages/tables/eskul_data.php">
@@ -301,6 +304,7 @@
                 </ul>
             </div>
             <!-- #Menu -->
+
             <!-- Footer -->
             <div class="legal">
                 <div class="copyright">
