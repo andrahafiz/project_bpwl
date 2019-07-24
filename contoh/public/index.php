@@ -253,9 +253,15 @@
 
                             <li>
                                 <!-- <a href="javascript:void(0);" class="menu-toggle"> -->
+<<<<<<< HEAD
                                 <a href="index.php?slink=pages/tables/pengumuman_daftar.php">
                                     <i class="material-icons">create</i>
                                     <span>Daftar Pengumuman</span>
+=======
+                                <a href="index.php?slink=pages/tables/eskul_daftar.php">
+                                    <i class="material-icons">create</i>
+                                    <span>Daftar Ekstrakulikuler</span>
+>>>>>>> 2535c745fc3e3b576313e36c4dd5b07d72956e8d
                                 </a>
                             </li>
 
@@ -279,10 +285,18 @@
                         </a>
                     </li>
 
+<<<<<<< HEAD
                     <!-- <a href="javascript:void(0);" class="menu-toggle"> -->
                         <a href="index.php?slink=pages/tables/pengumuman_data.php">
                             <i class="material-icons">view_list</i>
                             <span>Data Pengumuman</span>
+=======
+                    <li>
+                        <!-- <a href="javascript:void(0);" class="menu-toggle"> -->
+                        <a href="index.php?slink=pages/tables/eskul_data.php">
+                            <i class="material-icons">view_list</i>
+                            <span>Data Ekstrakulikuler</span>
+>>>>>>> 2535c745fc3e3b576313e36c4dd5b07d72956e8d
                         </a>
                     </li>
 
