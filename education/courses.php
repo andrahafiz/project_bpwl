@@ -1,4 +1,4 @@
-<!-- start banner Area -->
+start banner Area -->
 <section class="banner-area relative about-banner" id="home">
 	<div class="overlay overlay-bg"></div>
 	<div class="container">
@@ -25,13 +25,27 @@
 				</div>
 			</div>
 		</div>
+
+
+
 		<div class="row">
+
+			<?php
+
+		include "set/koneksi.php";
+
+		$sql = "select * from guru, jabatan where guru_jabatan = jabatan_id";
+		$result = mysqli_query($db, $sql);
+		while ($row = mysqli_fetch_array($result)){
+		
+		?>
+
 
 			<div class="single-popular-carusel col-lg-3 col-md-6">
 				<div class="thumb-wrap relative">
 					<div class="thumb relative">
 						<div class="overlay overlay-bg"></div>
-						<img class="img-fluid" src="img/p1.jpg" alt="">
+						<img class="img-fluid" src="../contoh/public/pages/tables/images/Guru/<?php echo $row[2]?>" alt=""  title="">
 					</div>
 				</div>
 				<div class="details">
@@ -41,14 +55,20 @@
 						</h4>
 					</a>
 					<p>
-						Nama : Guru <br>
-						Jabatan : Jabatan
+						Nip : <?php echo $row[0]; ?> <br>
+						Nama : <?php echo $row[1]; ?> <br>
+						Jabatan : <?php echo $row[10]; ?> <br>
 					</p>
 				</div>
 			</div>
 
+			<?php
+		}
+			?>
+
 
 		</div>
 	</div>
+
 </section>
-<!-- End popular-courses Area -->
+<!-- End popular-courses Area
