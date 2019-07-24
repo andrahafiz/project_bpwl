@@ -73,7 +73,7 @@
 								<li><a href="index.php">Beranda</a></li>
 								<li><a href="index.php?slink=about.php">Tentang Kami</a></li>
 								<li><a href="index.php?slink=courses.php">Guru dan Pegawai</a></li>
-								<li><a href="events.html">Events</a></li>
+								<li><a href="index.php?slink=events.php">Berita</a></li>
 								<li><a href="gallery.html">Gallery</a></li>
 								<li class="menu-has-children"><a href="">Blog</a>
 									<ul>
