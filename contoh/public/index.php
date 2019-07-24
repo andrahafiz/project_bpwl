@@ -251,6 +251,14 @@
                                 </a>
                             </li>
 
+                            <li>
+                                <!-- <a href="javascript:void(0);" class="menu-toggle"> -->
+                                <a href="index.php?slink=pages/tables/eskul_daftar.php">
+                                    <i class="material-icons">create</i>
+                                    <span>Daftar Ekstrakulikuler</span>
+                                </a>
+                            </li>
+
 
                         </ul>
                     </li>
@@ -268,6 +276,14 @@
                         <a href="index.php?slink=pages/tables/fasilitas_data.php">
                             <i class="material-icons">view_list</i>
                             <span>Data Fasilitas</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <!-- <a href="javascript:void(0);" class="menu-toggle"> -->
+                        <a href="index.php?slink=pages/tables/eskul_data.php">
+                            <i class="material-icons">view_list</i>
+                            <span>Data Ekstrakulikuler</span>
                         </a>
                     </li>
 
