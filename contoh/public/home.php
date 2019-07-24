@@ -90,8 +90,20 @@
                         <i class="material-icons">person_add</i>
                     </div>
                     <div class="content">
-                        <div class="text">NEW VISITORS</div>
-                        <div class="number count-to" data-from="0" data-to="1225" data-speed="1000" data-fresh-interval="20">1225</div>
+                        <div class="text">JUMLAH PENGUMUMAN</div>
+                        <?php
+                            include "pages/set/koneksi.php";
+                            $sql = "SELECT COUNT(judul_pengumuman) FROM `pengumuman`";
+                            $result =  mysqli_query($db, $sql);
+                            $row = mysqli_fetch_array($result);
+
+                            echo "
+                            
+                            <div class='number count-to' data-from='0' data-to='$row[0]' data-speed='15' 
+                            data-fresh-interval='20'>
+                            ";
+                           ?>
+                        </div>
                     </div>
                 </div>
             </div>
