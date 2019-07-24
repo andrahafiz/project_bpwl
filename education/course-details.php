@@ -7,8 +7,17 @@ $id = $_GET['id'];
     <div class="container">
         <div class="row d-flex align-items-center justify-content-center">
             <div class="about-content col-lg-12">
+                <?php
+
+                            include "set/koneksi.php";
+
+                            $sql = "select * from guru, jabatan where guru_jabatan = jabatan_id and nip_guru =$id";
+                            $result = mysqli_query($db, $sql);
+                            while ($row = mysqli_fetch_array($result)) {
+
+                                ?>
                 <h1 class="text-white">
-                    Nama Guru <?php echo $id; ?>
+                    <?php echo $row[1]; ?>
                 </h1>
                 <p class="text-white link-nav"><a href="index.html">Home </a> <span class="lnr lnr-arrow-right"></span> <a href="courses.html"> Data Guru </a></p>
             </div>
@@ -29,15 +38,7 @@ $id = $_GET['id'];
 
                     <div class="jq-tab-content-wrapper" style=" margin-bottom: 50px;">
                         <div class="jq-tab-content active" data-tab=" 1">
-                            <?php
-
-                            include "set/koneksi.php";
-
-                            $sql = "select * from guru, jabatan where guru_jabatan = jabatan_id and nip_guru =$id";
-                            $result = mysqli_query($db, $sql);
-                            while ($row = mysqli_fetch_array($result)) {
-
-                                ?>
+                            
                             <div class="row" style="margin-bottom:10px; padding:10px;">
                                 <div class="col-4">
                                     <b> Nama</b>
