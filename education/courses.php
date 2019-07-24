@@ -35,7 +35,7 @@
 					</div>
 				</div>
 				<div class="details">
-					<a href="index.php?slink=courses.phpcourse-details.html">
+					<a href="index.php?slink=course-details.php">
 						<h4>
 							Nama Guru
 						</h4>
