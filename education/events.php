@@ -29,7 +29,7 @@
 						<div class="col-lg-6 pb-30">
 							<div class="single-carusel row align-items-center">
 								<div class="col-12 col-md-6 thumb">
-									<img class="img-fluid" src="img/e1.jpg" alt="">
+									<img class="img-fluid" src="../contoh/public/pages/tables/images/Pengumuman/<?php echo $row[3]; ?>" alt="">
 								</div>
 								<div class="detials col-12 col-md-6">
 									<p>25th February, 2018</p>
