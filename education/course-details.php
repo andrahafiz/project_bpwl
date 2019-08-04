@@ -5,11 +5,8 @@
         <div class="row d-flex align-items-center justify-content-center">
             <div class="about-content col-lg-12">
                 <h1 class="text-white">
-<<<<<<< HEAD
                     Popular Courses
-=======
                     Nama Guru <?php echo $id; ?>
->>>>>>> parent of 6e0b75a... Update course-details.php
                 </h1>
                 <p class="text-white link-nav"><a href="index.html">Home </a> <span class="lnr lnr-arrow-right"></span> <a href="courses.html"> Popular Courses</a></p>
             </div>
@@ -30,7 +27,6 @@
 
                     <div class="jq-tab-content-wrapper" style=" margin-bottom: 50px;">
                         <div class="jq-tab-content active" data-tab=" 1">
-<<<<<<< HEAD
                             When you enter into any new area of science, you almost always find yourself with a baffling new language of technical terms to learn before you can converse with the experts. This is certainly true in astronomy both in terms of terms that refer to the cosmos and terms that describe the tools of the trade, the most prevalent being the telescope.
                             <br>
                             <br>
@@ -41,76 +37,6 @@
                             <br>
                             <br>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
-=======
-                            <?php
-
-                            include "set/koneksi.php";
-
-                            $sql = "select * from guru, jabatan where guru_jabatan = jabatan_id and nip_guru =$id";
-                            $result = mysqli_query($db, $sql);
-                            while ($row = mysqli_fetch_array($result)) {
-
-                                ?>
-                            <div class="row" style="margin-bottom:10px; padding:10px;">
-                                <div class="col-4">
-                                    <b> Nama</b>
-                                </div>
-                                <div class="col-8">
-                                    : <?php echo $row[1]; ?> 
-                                    <hr />
-                                </div>
-                            </div>
-                            <div class="row" style="margin-bottom:10px; padding:10px;">
-                                <div class="col-4">
-                                    <b> Singkatan </b>
-                                </div>
-                                <div class="col-8">
-                                    : <?php echo $row[3]; ?>
-                                    <hr />
-                                </div>
-                            </div>
-                            <div class="row" style="margin-bottom:10px; padding:10px;">
-                                <div class="col-4">
-                                    <b> Tempat Tanggal Lahir</b>
-                                </div>
-                                <div class="col-8">
-                                    : <?php echo $row[6]; ?>, <?php echo $row[7]; ?>
-                                    <hr />
-                                </div>
-                            </div>
-                            <div class="row" style="margin-bottom:10px; padding:10px;">
-                                <div class="col-4">
-                                    <b> Alamat</b>
-                                </div>
-                                <div class="col-8">
-                                    : <?php echo $row[8]; ?>
-                                    <hr />
-                                </div>
-                            </div>
-
-                            
-                            <div class="row" style="margin-bottom:10px; padding:10px;">
-                                <div class="col-4">
-                                    <b>Jabatan</b>
-                                </div>
-                                <div class="col-8">
-                                    : <?php echo $row[10]; ?>
-                                    <hr />
-                                </div>
-                            </div>
-
-                            <div class="row" style="margin-bottom:10px; padding:10px;">
-                                <div class="col-4">
-                                    <b>Pendidikan Terakhir</b>
-                                </div>
-                                <div class="col-8">
-                                    : <?php echo $row[4]; ?>
-                                    <hr />
-
-                                </div>
-                            </div>
-
->>>>>>> parent of 6e0b75a... Update course-details.php
                         </div>
                     </div>
                 </div>
