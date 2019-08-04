@@ -1,3 +1,8 @@
+<?php
+$id = $_GET['id'];
+$sql = "select * from view_guru_detail where nip_guru=$id";
+
+?>
 <!-- start banner Area -->
 <section class="banner-area relative about-banner" id="home">
     <div class="overlay overlay-bg"></div>
@@ -5,7 +10,6 @@
         <div class="row d-flex align-items-center justify-content-center">
             <div class="about-content col-lg-12">
                 <h1 class="text-white">
-                    Popular Courses
                     Nama Guru <?php echo $id; ?>
                 </h1>
                 <p class="text-white link-nav"><a href="index.html">Home </a> <span class="lnr lnr-arrow-right"></span> <a href="courses.html"> Popular Courses</a></p>
@@ -16,12 +20,13 @@
 <!-- End banner Area -->
 
 <!-- Start course-details Area -->
+
 <section class="course-details-area pt-120">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 left-contents">
                 <div class="main-image">
-                    <img class="img-fluid" src="../contoh/public/pages/tables/images/Guru/<?php echo $row[2] ?>" alt="">
+                    aaaa <img class="img-fluid" src="../contoh/public/pages/tables/images/Guru/<?php echo $row[2] ?>" alt="">
                 </div>
                 <div class="jq-tab-wrapper" id="horizontalTab">
 
