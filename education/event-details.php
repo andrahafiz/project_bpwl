@@ -7,7 +7,7 @@
                     <h1 class="text-white">
                         Detail Berita
                     </h1>
-                    <p class="text-white link-nav"><a href="index.html">Home </a> <span class="lnr lnr-arrow-right"></span> <a href="event-details.html"> Event Details</a></p>
+                    <p class="text-white link-nav"><a href="index.html">Home </a> <span class="lnr lnr-arrow-right"></span> <a href="event-details.html"> Detail Berita</a></p>
                 </div>
             </div>
         </div>
