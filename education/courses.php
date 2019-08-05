@@ -52,12 +52,11 @@ start banner Area -->
 					<div class="details">
 						<a href="index.php?slink=course-details.php&id=<?php echo $row[0] ?>">
 							<h4>
-								Nama Guru
+								<?php echo $row[1]; ?>
 							</h4>
 						</a>
 						<p>
 							Nip : <?php echo $row[0]; ?> <br>
-							Nama : <?php echo $row[1]; ?> <br>
 							Jabatan : <?php echo $row[10]; ?> <br>
 						</p>
 					</div>

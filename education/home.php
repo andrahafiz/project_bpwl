@@ -16,7 +16,6 @@
                      Selamat Datang di website<br>
                      <?php echo $row[0]; ?>
                  </h1>
-                 <a href="#" class="primary-btn text-uppercase">Get Started</a>
              </div>
          </div>
      </div>
