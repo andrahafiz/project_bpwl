@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿<?php
+error_reporting(0);
+?>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -227,12 +230,7 @@
                             <span>Home</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="index.php">
-                            <i class="material-icons">school</i>
-                            <span>Profile Sekolah</span>
-                        </a>
-                    </li>
+
 
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle waves-effect waves-block">

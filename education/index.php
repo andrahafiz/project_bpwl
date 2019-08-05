@@ -98,33 +98,6 @@
 			<!-- start footer Area -->
 			<footer class="footer-area section-gap">
 				<div class="container">
-					<div class="row">
-						<div class="col-lg-2 col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-
-							</div>
-						</div>
-						<div class="col-lg-4  col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-
-							</div>
-						</div>
-					</div>
 					<div class="footer-bottom row align-items-center justify-content-between">
 						<p class="footer-text m-0 col-lg-6 col-md-12">
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
