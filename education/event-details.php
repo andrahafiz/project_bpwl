@@ -57,11 +57,7 @@
             <div class="row">
 
                 <div class="col-lg-8 event-details-left">
-                    <div class="main-img">
-                        <img class="img-fluid" src="img/event-details-img.jpg" alt="">
-                    </div>
-                    <div class="details-content">
-                        <?php
+                    <?php
 
                         include "set/koneksi.php";
                         $id = $_GET['id'];
@@ -71,6 +67,11 @@
                         while ($row = mysqli_fetch_array($result)) {
 
                             ?>
+                    <div class="main-img">
+                        <img class="img-fluid" src="../contoh/public/pages/tables/images/Pengumuman/<?php echo $row[3]; ?>" alt="">
+                    </div>
+                    <div class="details-content">
+                        
                             <a href="#">
                                 <h4><?php echo $row[1] ?></h4>
                             </a>
@@ -79,76 +80,24 @@
                             </p>
                             
                         </div>
-                    <?php
-                    }
-                    ?>
-                    <div class="social-nav row no-gutters">
-                        <div class="col-lg-6 col-md-6 ">
-                            <ul class="focials">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6 col-md-6 navs">
-                            <a href="#" class="nav-prev"><span class="lnr lnr-arrow-left"></span>Prev Event</a>
-                            <a href="#" class="nav-next">Next Event<span class="lnr lnr-arrow-right"></span></a>
-                        </div>
-                    </div>
+                   
+                    
                 </div>
                 <div class="col-lg-4 event-details-right">
                     <div class="single-event-details">
                         <h4>Details</h4>
                         <ul class="mt-10">
                             <li class="justify-content-between d-flex">
-                                <span>Start date</span>
-                                <span>15th April, 2018</span>
+                                <span>Tanggal Upload</span>
+                                <span><?php echo $row[4]; ?></span>
                             </li>
-                            <li class="justify-content-between d-flex">
-                                <span>End date</span>
-                                <span>18th April, 2018</span>
-                            </li>
-                            <li class="justify-content-between d-flex">
-                                <span>Ticket Price</span>
-                                <span>Free of Cost</span>
-                            </li>
+                            
                         </ul>
                     </div>
-                    <div class="single-event-details">
-                        <h4>Venue</h4>
-                        <ul class="mt-10">
-                            <li class="justify-content-between d-flex">
-                                <span>Place</span>
-                                <span>Main Hallroom</span>
-                            </li>
-                            <li class="justify-content-between d-flex">
-                                <span>Street</span>
-                                <span>Bullevard Street</span>
-                            </li>
-                            <li class="justify-content-between d-flex">
-                                <span>City</span>
-                                <span>Santa Monica</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="single-event-details">
-                        <h4>Organiser</h4>
-                        <ul class="mt-10">
-                            <li class="justify-content-between d-flex">
-                                <span>Company</span>
-                                <span>Colorlib</span>
-                            </li>
-                            <li class="justify-content-between d-flex">
-                                <span>Street</span>
-                                <span>Bullevard Street</span>
-                            </li>
-                            <li class="justify-content-between d-flex">
-                                <span>City</span>
-                                <span>Santa Monica</span>
-                            </li>
-                        </ul>
-                    </div>
+                     <?php
+                    }
+                    ?>
+                    
                 </div>
             </div>
         </div>
