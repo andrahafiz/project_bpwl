@@ -89,7 +89,7 @@
                         <ul class="mt-10">
                             <li class="justify-content-between d-flex">
                                 <span>Tanggal Upload</span>
-                                <span><?php echo $row[4]; ?></span>
+                                <span><?php echo substr($row[4],0,9); ?></span>
                             </li>
                             
                         </ul>
