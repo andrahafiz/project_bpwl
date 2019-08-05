@@ -55,21 +55,33 @@
     <section class="event-details-area section-gap">
         <div class="container">
             <div class="row">
+
                 <div class="col-lg-8 event-details-left">
                     <div class="main-img">
                         <img class="img-fluid" src="img/event-details-img.jpg" alt="">
                     </div>
                     <div class="details-content">
-                        <a href="#">
-                            <h4>Designing Effective Slider images</h4>
-                        </a>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolorema gna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-                        </p>
-                    </div>
+                        <?php
+
+                        include "set/koneksi.php";
+                        $id = $_GET['id'];
+                        $sql = "select * from pengumuman where id_pengumuman='$id'";
+                        // echo $sql;
+                        $result = mysqli_query($db, $sql);
+                        while ($row = mysqli_fetch_array($result)) {
+
+                            ?>
+                            <a href="#">
+                                <h4><?php echo $row[1] ?></h4>
+                            </a>
+                            <p>
+                                <?php echo $row[2]?>
+                            </p>
+                            
+                        </div>
+                    <?php
+                    }
+                    ?>
                     <div class="social-nav row no-gutters">
                         <div class="col-lg-6 col-md-6 ">
                             <ul class="focials">

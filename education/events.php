@@ -35,7 +35,7 @@
 									</div>
 									<div class="detials col-12 col-md-6">
 										<p><?php echo $row[4]; ?></p>
-										<a href="#">
+										<a href="index.php?slink=event-details.php&id=<?php echo $row[0] ?>">
 											<h4><?php echo $row[1]; ?></h4>
 										</a>
 										<p>
