@@ -231,7 +231,6 @@ error_reporting(0);
                         </a>
                     </li>
 
-
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle waves-effect waves-block">
                             <i class="material-icons">add_box</i>
