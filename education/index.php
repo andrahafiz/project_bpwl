@@ -42,7 +42,7 @@
 		?>
 
 		<body>
-			<header id="header" id="home">
+		  	<header id="header" id="home">
 				<div class="header-top">
 					<div class="container">
 						<div class="row">
@@ -86,13 +86,14 @@
 			</header><!-- #header -->
 
 			<?php
-			error_reporting(0);
-			$apaja = $_REQUEST['slink'];
-			if (isset($apaja))
-				include "$apaja";
-			else
-				include "home.php";
-			?>
+				error_reporting(0);
+				$apaja = $_REQUEST['slink'];
+				$class = ""
+				if (isset($apaja))
+					include "$apaja";
+				else
+					include "home.php";
+				?>
 
 
 			<!-- start footer Area -->
@@ -136,6 +137,6 @@
 		<script src="js/owl.carousel.min.js"></script>
 		<script src="js/mail-script.js"></script>
 		<script src="js/main.js"></script>
-	</body>
+		</body>
 
 	</html>
